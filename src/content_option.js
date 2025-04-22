@@ -93,7 +93,7 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "../img/TorAlva_01.png",
+        img: "https://github.com/HuangSuuu/portfolio/blob/main/img/TorAlva_01.jpg",
         description: "Tor Alva.",
         link: "#",
     },
@@ -103,7 +103,7 @@ const dataportfolio = [{
         link: "#",
     },
     {
-        img: "../img/NubianVaultedSlabs_02.jpg",
+        img: "./img/NubianVaultedSlabs_02.jpg",
         description: "Nubian Vaulted Slabs.",
         link: "#",
     },
