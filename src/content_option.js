@@ -1,38 +1,38 @@
-const logotext = "JOHN";
+const logotext = "HuangSU";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "HuangSU.works",
+    description: "I’m Huang SU _ currently working in Zurich",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Huang Su,",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "an Architect.",
+        second: "a Computational Designer.",
+        third: "a Digital Fabrication Specialist.",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "I am passionate about integrating technology with design and fostering interdisciplinary collaboration. Here, you can find my selected works and interests. Please feel free to reach out to me.",
+    your_img_url: "https://",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Hi, I'm Huang Su.",
+    aboutme: "I am an Computational Designer, Digital Fabrication Specialist and Architect with expertise in parametric design and robotic fabrication. I am passionate about integrating technology with design and fostering interdisciplinary collaboration. I believe architecture should not only be visually compelling, but also functional and environmentally responsible.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Scientific Researcher",
+        where: "ETH Zurich",
+        date: "2023.12-Present",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Project Designer",
+        where: "Sed-ia Architecture",
+        date: "2021.10 - 2022.06",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Competition Designer",
+        where: "Sed-ia Architecture",
+        date: "2020.03 - 2021.09",
     },
 ];
 
@@ -41,104 +41,104 @@ const skills = [{
         value: 90,
     },
     {
-        name: "Djano",
+        name: "Rhino",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "Grasshopper",
         value: 80,
     },
     {
-        name: "React",
+        name: "Arduino",
         value: 60,
     },
     {
-        name: "Jquery",
+        name: "Revit",
+        value: 85,
+    },
+    {
+        name: "ArchiCAD",
+        value: 85,
+    },
+    {
+        name: "Robotic Control (UR & ABB)",
+        value: 85,
+    },
+    {
+        name: "Adobe (Ps & Ai & Id)",
+        value: 85,
+    },
+    {
+        name: "Lumion",
         value: 85,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "1st | Kaohsiung Economic and Trade Park Competition",
+        description: "2022 | Mixed-use development featuring retail, office, and residential spaces.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "1st | Baogao Science And Intellectual Park Competition",
+        description: "2022 | Mixed-use complex integrating factory spaces with retail and office functions.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "1st | Nangang Transfer Station Competition",
+        description: "2020 | Mixed-use project incorporating retail and office spaces.",
+    },
+    {
+        title: "Shortlist | Taipei City Digital Innovation Center Competition",
+        description: "2020 | Mixed-use hub combining retail and office environments.",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "../img/TorAlva_01.png",
+        description: "Tor Alva.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "../img/KnitRestrainedPneumatics_01.jpg",
+        description: "Knit-Restrained Pneumatics.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "../img/NubianVaultedSlabs_02.jpg",
+        description: "Nubian Vaulted Slabs.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "../img/ImpactPrinting_01.jpg",
+        description: "Impact Printing.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "../img/Prōtóplasto_01.jpg",
+        description: "Prōtóplasto.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "../img/BaokaoIndustrialPark_01.jpg",
+        description: "Baokao Industrial Park.",
         link: "#",
     },
 
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "../img/GinzaCentralTower_01.png",
+        description: "Ginza Central Tower.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "",
+        description: "Bio-Voxelize.",
         link: "#",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "u09950048@gmail.com",
+    YOUR_FONE: "(+41)7957-66433",
+    description: "",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +147,12 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    resume: "https://drive.google.com/file/d/1L3KtHyB7vgrLSnN_Qg9qt-XB9I3q04RF/view?usp=sharing",
+    linkedin: "https://linkedin.com/in/huang-su-8128871a6",
+    github: "https://github.com/HuangSuuu",
+    // facebook: "",
+    // twitter: "",
+    // portfolio: "https://drive.google.com/file/d/1oq1aYN3fx5Qlde5Hs7E-nJuH-SuqIhhS/view?usp=drive_link",
 };
 export {
     meta,

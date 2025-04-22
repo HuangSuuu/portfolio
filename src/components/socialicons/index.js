@@ -2,28 +2,22 @@ import React from "react";
 import "./style.css";
 import {
   FaGithub,
-  FaTwitter,
   FaFacebookF,
-  FaLinkedin,
+  FaLinkedinIn,
   FaYoutube,
-  FaTwitch,
   FaInstagram,
-  FaSnapchatGhost,
-  FaTiktok,
-  FaCircle
+  FaChild,
+  FaRobot,
+  FaWhatsapp,
 } from "react-icons/fa";
 import { socialprofils } from "../../content_option";
 
 const ICON_MAPPING = {
-  default: FaCircle,
+  default: FaRobot,
   facebook: FaFacebookF,
   github: FaGithub,
   instagram: FaInstagram,
-  linkedin: FaLinkedin,
-  snapchat: FaSnapchatGhost,
-  tiktok: FaTiktok,
-  twitter: FaTwitter,
-  twitch: FaTwitch,
+  linkedin: FaLinkedinIn,
   youtube: FaYoutube
 };
 
@@ -42,7 +36,7 @@ export const Socialicons = (params) => {
           );
         })}
       </ul>
-      <p>Follow Me</p>
+      <p>。</p>
     </div>
   );
 };
